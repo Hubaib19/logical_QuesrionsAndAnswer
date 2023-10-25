@@ -1,4 +1,4 @@
-// Find the new even numbers with new list
+// Find the even numbers with new list
 
 void main(){
   List<int> num = [4,6,7,9,8,11,12];
