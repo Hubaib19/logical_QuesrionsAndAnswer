@@ -5,7 +5,7 @@ void main(){
   List <String> c = [];
 
   for(int i=0;i<name.length;i++){
-    if(name[i].length>=4){
+    if(name[i].length>4){
       c.add(name[i]);
     }
   }
