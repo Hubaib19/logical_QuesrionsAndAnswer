@@ -3,8 +3,8 @@
 import 'dart:io';
 
 void main() {
-  List<String> stringsList = ["apple", "banana", "apple", "cherry", "Orange", "banana"];
+  List<String> fruits = ["apple", "banana", "apple", "cherry", "Orange", "banana"];
   
-  var b = stringsList.toSet();
+  var b = fruits.toSet();
   print(b);
 }
