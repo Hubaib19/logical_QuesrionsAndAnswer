@@ -5,9 +5,6 @@ import 'dart:io';
 void main() {
   List<String> stringsList = ["apple", "banana", "apple", "cherry", "Orange", "banana"];
   
-  Set<String> uniqueSet = Set<String>.from(stringsList);
-  
-  List<String> uniqueList = uniqueSet.toList();
-  
-  stdout.write(uniqueList);
+  var b = stringsList.toSet();
+  print(b);
 }
